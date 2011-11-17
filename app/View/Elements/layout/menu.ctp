@@ -7,7 +7,7 @@ $url_view_challenge = $this->Html->url(array('controller' => 'contents', 'action
 $url_view_idea = $this->Html->url(array('controller' => 'contents', 'action' => 'idea'));
 $url_view_vision = $this->Html->url(array('controller' => 'contents', 'action' => 'vision'));
 $url_view_groups = $this->Html->url(array('controller' => 'Groups', 'action' => 'browse'));
-$url_view_campaigns = $this->Html->url(array('controller' => 'Campaigns', 'action' => 'edit'));
+$url_view_campaigns = $this->Html->url(array('controller' => 'Campaigns', 'action' => 'browse'));
 ?>
 
 <div class="left">
