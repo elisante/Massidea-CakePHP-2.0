@@ -43,6 +43,8 @@ $body = '';
 	<p><?php __('Vision concern the long-term future which is usually at least 10 years away. It can be future scenario, trend or anti-trend, which is most likely to be realized. It can also describe an alternative unlikely future based on seed of change or weak signal, which might significantly change all our life if realized.') ?></p>
 	<p><?php __('Write to a person who is not familiar with the topic.') ?></p>
 	<p><?php __('Keep your focus on vision and not related challenges or ideas. You can publish those on a separate document and link them later on to this vision.') ?></p>
+	
+<?php elseif($content_type === 'campaign'): $body = $campaign; ?>
 
 <?php endif; ?>
 </div>

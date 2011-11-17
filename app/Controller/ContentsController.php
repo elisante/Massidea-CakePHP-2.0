@@ -288,6 +288,8 @@ class ContentsController extends AppController {
 		$this->set('specific',$contentSpecificData);
 		$this->set('linkedContents',$linkedContents);
 		$this->set('linkedContentsCount',$linkedContentsCount);
+		$this->set('campaigns',$compaign);
+		$this->set('$content_class',contentWithTopAndSidebar);
 	
 	}
 	

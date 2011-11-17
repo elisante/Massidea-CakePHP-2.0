@@ -234,8 +234,8 @@ class Group extends AppModel {
 			'deleteQuery' => '',
 			'insertQuery' => ''
 		),
-// 		'Request' => array(
-// 			'className' => 'Request',
+//	'Request' => array(
+ //			'className' => 'Request',
 // 			'joinTable' => 'groups_requests',
 // 			'foreignKey' => 'group_id',
 // 			'associationForeignKey' => 'request_id',

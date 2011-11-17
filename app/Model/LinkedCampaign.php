@@ -32,4 +32,21 @@ class LinkedCampaign extends AppModel {
 			),
 		),
 	);
+	
+	public $belongsTo = array(
+				'From' => array(
+					'className' => 'Campaign',
+					'foreignKey' => 'from',
+					'conditions' => '',
+					'fields' => '',
+					'order' => ''
+	),
+				'To' => array(
+					'className' => 'Campaign',
+					'foreignKey' => 'to',
+					'conditions' => '',
+					'fields' => '',
+					'order' => ''
+	)
+	);
 }

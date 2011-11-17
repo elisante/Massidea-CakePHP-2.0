@@ -3,6 +3,8 @@
 $url_add_challenge = $this->Html->url(array('controller' => 'contents', 'action' => 'add', 'challenge', $contentId));
 $url_add_idea = $this->Html->url(array('controller' => 'contents', 'action' => 'add', 'idea', $contentId));
 $url_add_vision = $this->Html->url(array('controller' => 'contents', 'action' => 'add', 'vision', $contentId));
+//edited by elisante $url_add_campaign = $this->Html->url(array('controller' => 'campaings', 'action' => 'edit', 'campaign', $campaignId));
+
 ?>
 
 <div id="add_new_link">
